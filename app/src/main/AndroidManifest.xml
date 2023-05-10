@@ -13,6 +13,18 @@
         android:theme="@style/Theme.SlayQ"
         tools:targetApi="31">
         <activity
+            android:name=".PAgeLinearActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PagelinearActivity"
+            android:exported="false" />
+        <activity
             android:name=".PageConstraintLayout"
             android:exported="true">
             <intent-filter>
